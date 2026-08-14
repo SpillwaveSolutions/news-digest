@@ -1,0 +1,36 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "nwd-plugin-marketplace",
+  "description": "News Digest plugins for Claude Code (Grok Build compatible via Claude plugin zero-config)",
+  "owner": {
+    "name": "Rick Hightower",
+    "url": "https://github.com/RichardHightower"
+  },
+  "plugins": [
+    {
+      "name": "news-digest",
+      "source": "./",
+      "description": "News digest ContentPack: news items, sources, scheduled digests, signal strength, trends, and follow-up candidates for long-form.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/news-digest",
+      "repository": "https://github.com/SpillwaveSolutions/news-digest",
+      "license": "MIT",
+      "keywords": [
+        "news",
+        "digest",
+        "source",
+        "trend",
+        "signal",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "okf",
+        "content-pack"
+      ],
+      "category": "productivity"
+    }
+  ]
+}

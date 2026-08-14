@@ -1,0 +1,71 @@
+{
+  "version": "0.1.0",
+  "plugin": "news-digest",
+  "types": [
+    {
+      "type": "NewsItem",
+      "folder": null,
+      "description": "Single news item"
+    },
+    {
+      "type": "Source",
+      "folder": null,
+      "description": "Publication or feed"
+    },
+    {
+      "type": "Digest",
+      "folder": null,
+      "description": "Scheduled rollup (morning / afternoon)"
+    },
+    {
+      "type": "SignalStrength",
+      "folder": null,
+      "description": "High / medium / low importance"
+    },
+    {
+      "type": "Topic",
+      "folder": null,
+      "description": "Normalized topic tag"
+    },
+    {
+      "type": "Trend",
+      "folder": null,
+      "description": "Multi-item pattern"
+    },
+    {
+      "type": "CompanyMention",
+      "folder": null,
+      "description": "Company referenced in news"
+    },
+    {
+      "type": "ProductLaunch",
+      "folder": null,
+      "description": "Launch event"
+    },
+    {
+      "type": "ResearchPaper",
+      "folder": null,
+      "description": "Paper worth tracking"
+    },
+    {
+      "type": "OpinionPiece",
+      "folder": null,
+      "description": "Commentary item"
+    },
+    {
+      "type": "FollowUpCandidate",
+      "folder": null,
+      "description": "Item that should become an article"
+    },
+    {
+      "type": "SourceCredibility",
+      "folder": null,
+      "description": "Trust note on a source"
+    },
+    {
+      "type": "TimestampedEvent",
+      "folder": null,
+      "description": "Dated industry event"
+    }
+  ]
+}

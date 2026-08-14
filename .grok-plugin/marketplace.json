@@ -1,0 +1,18 @@
+{
+  "name": "nwd-plugin-marketplace",
+  "description": "Optional native Grok marketplace metadata. Grok Build already loads Claude plugins with zero config.",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "news-digest",
+      "source": ".",
+      "description": "News digest ContentPack: news items, sources, scheduled digests, signal strength, trends, and follow-up candidates for long-form.",
+      "version": "0.1.0",
+      "compatibility": {
+        "claude_plugin": true,
+        "zero_config": true
+      },
+      "repository": "https://github.com/SpillwaveSolutions/news-digest"
+    }
+  ]
+}

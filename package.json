@@ -1,0 +1,12 @@
+{
+  "name": "news-digest",
+  "version": "0.1.0",
+  "private": true,
+  "description": "News Digest \u2014 Claude Code / Grok Build / Codex plugin",
+  "scripts": {
+    "test": "python3 tests/test_nwd.py",
+    "validate": "python3 scripts/nwd_common.py validate --bundle sample-knowledge",
+    "init": "python3 scripts/nwd_common.py init-bundle --bundle sample-knowledge --title \"News Digest\" --catalogs \"news-items,sources,digests,topics,trends\""
+  },
+  "license": "MIT"
+}
