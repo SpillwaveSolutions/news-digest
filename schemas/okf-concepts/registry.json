@@ -1,70 +1,70 @@
 {
-  "version": "0.1.0",
+  "version": "0.3.0",
   "plugin": "news-digest",
   "types": [
     {
       "type": "NewsItem",
-      "folder": null,
+      "folder": "news-items",
       "description": "Single news item"
     },
     {
       "type": "Source",
-      "folder": null,
+      "folder": "sources",
       "description": "Publication or feed"
     },
     {
       "type": "Digest",
-      "folder": null,
+      "folder": "digests",
       "description": "Scheduled rollup (morning / afternoon)"
     },
     {
       "type": "SignalStrength",
-      "folder": null,
+      "folder": "signal-strengths",
       "description": "High / medium / low importance"
     },
     {
       "type": "Topic",
-      "folder": null,
+      "folder": "topics",
       "description": "Normalized topic tag"
     },
     {
       "type": "Trend",
-      "folder": null,
+      "folder": "trends",
       "description": "Multi-item pattern"
     },
     {
       "type": "CompanyMention",
-      "folder": null,
+      "folder": "company-mentions",
       "description": "Company referenced in news"
     },
     {
       "type": "ProductLaunch",
-      "folder": null,
+      "folder": "product-launchs",
       "description": "Launch event"
     },
     {
       "type": "ResearchPaper",
-      "folder": null,
+      "folder": "research-papers",
       "description": "Paper worth tracking"
     },
     {
       "type": "OpinionPiece",
-      "folder": null,
+      "folder": "opinion-pieces",
       "description": "Commentary item"
     },
     {
       "type": "FollowUpCandidate",
-      "folder": null,
+      "folder": "follow-up-candidates",
       "description": "Item that should become an article"
     },
     {
       "type": "SourceCredibility",
-      "folder": null,
+      "folder": "source-credibilities",
       "description": "Trust note on a source"
     },
     {
       "type": "TimestampedEvent",
-      "folder": null,
+      "folder": "timestamped-events",
       "description": "Dated industry event"
     }
   ]

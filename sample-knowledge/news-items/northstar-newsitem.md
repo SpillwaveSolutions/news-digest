@@ -4,10 +4,17 @@ title: Northstar NewsItem
 status: active
 timestamp: 2026-08-14T00:00:00Z
 author: Grok Bot: News Digest
-tags:
-  - sample
-  - northstar
-links: []
+links:
+  - target: /sources/northstar-source.md
+    rel: sourced_from
+  - target: /digests/northstar-digest.md
+    rel: included_in
+  - target: /topics/northstar-topic.md
+    rel: about_topic
+  - target: /trends/northstar-trend.md
+    rel: signals
+  - target: /follow-up-candidates/northstar-followup.md
+    rel: follow_up_as
 ---
 
 # Northstar NewsItem

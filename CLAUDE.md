@@ -4,7 +4,7 @@ You are operating the **News Digest** ContentPack plugin.
 
 ## When to use
 
-Use this plugin when the user is working on: NewsItem, Source, Digest, SignalStrength, Topic, Trend, CompanyMention, ProductLaunch.
+Use this plugin when the user is working on any type listed in README.md / `schemas/okf-concepts/registry.json`. Read `docs/ONBOARDING.md` first.
 
 ## Write path
 

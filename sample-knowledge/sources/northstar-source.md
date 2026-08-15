@@ -4,10 +4,9 @@ title: Northstar Source
 status: active
 timestamp: 2026-08-14T00:00:00Z
 author: Grok Bot: News Digest
-tags:
-  - sample
-  - northstar
-links: []
+links:
+  - target: /news-items/northstar-newsitem.md
+    rel: related_to
 ---
 
 # Northstar Source
