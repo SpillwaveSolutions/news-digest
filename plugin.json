@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "news-digest",
+  "version": "0.2.0",
+  "description": "News digest ContentPack: news items, sources, scheduled digests, trends, follow-up candidates.",
+  "author": {
+    "name": "Rick Hightower",
+    "url": "https://github.com/RichardHightower"
+  },
+  "homepage": "https://github.com/SpillwaveSolutions/news-digest",
+  "repository": "https://github.com/SpillwaveSolutions/news-digest",
+  "license": "MIT",
+  "keywords": [
+    "news",
+    "digest",
+    "second-brain",
+    "agent-plugins"
+  ]
+}
