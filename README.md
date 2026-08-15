@@ -76,7 +76,7 @@ python3 scripts/nwd_common.py write \
   --type NewsItem \
   --folder news-items \
   --title "Example" \
-  --author "Grok Bot: News Digest"
+  --author "${SECOND_BRAIN_IDENTITY:?claim an identity first: brain.py whoami --claim}"
 ```
 
 Never invent `rel` values. Never write types owned by another plugin.
