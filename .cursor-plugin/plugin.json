@@ -1,11 +1,9 @@
 {
-  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "news-digest",
   "version": "0.3.2",
   "description": "News digest ContentPack: news items, sources, scheduled digests, trends, follow-up candidates.",
   "author": {
-    "name": "Rick Hightower",
-    "url": "https://github.com/RichardHightower"
+    "name": "Rick Hightower"
   },
   "homepage": "https://github.com/SpillwaveSolutions/news-digest",
   "repository": "https://github.com/SpillwaveSolutions/news-digest",
@@ -16,5 +14,8 @@
     "second-brain",
     "agent-plugins",
     "cursor"
-  ]
+  ],
+  "skills": "skills/",
+  "rules": ".cursor/rules/",
+  "commands": "commands/"
 }
