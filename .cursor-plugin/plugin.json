@@ -1,6 +1,6 @@
 {
   "name": "news-digest",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "News digest ContentPack: news items, sources, scheduled digests, trends, follow-up candidates.",
   "author": {
     "name": "Rick Hightower"
@@ -13,7 +13,9 @@
     "digest",
     "second-brain",
     "agent-plugins",
-    "cursor"
+    "cursor",
+    "worklog",
+    "wiki-ticket-sdd"
   ],
   "skills": "skills/",
   "rules": ".cursor/rules/",
