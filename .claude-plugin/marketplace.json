@@ -11,7 +11,7 @@
       "name": "news-digest",
       "source": "./",
       "description": "News digest ContentPack: news items, sources, scheduled digests, signal strength, trends, and follow-up candidates for long-form.",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "author": {
         "name": "Rick Hightower"
       },
